@@ -32,20 +32,12 @@ uv run zensical build --clean
 
 ---
 
-## Estrutura do repositório
+## Onde fica cada coisa
 
-```text
-platform-docs/
-├── zensical.toml                    # Configuração do site, tema, extensões e navegação
-├── pyproject.toml                   # Manifesto Python (zensical==0.1.3)
-├── .gitignore                       # Ignora site/, .cache/ e artefatos Python
-└── docs/                            # Conteúdo publicado pelo Zensical
-    ├── index.md                     # Página inicial
-    └── contributing/
-        └── documentation.md         # Guia de contribuição para a documentação
-```
-
-> **Estado atual (mutável):** a raiz deste diretório também mantém artefatos de modelagem anteriores (`Minerva.dbml`, `Minerva.schemas.*`, `gerar_visualizacao_dbml.py`, etc.) enquanto a documentação é migrada para `docs/`.
+- `docs/` — conteúdo publicado pelo Zensical.
+- `zensical.toml` — configuração do site, tema, extensões e navegação.
+- `pyproject.toml`, `uv.lock` e `.python-version` — dependências e versão do Python (`uv`).
+- `.github/workflows/` — build e publicação automática no GitHub Pages.
 
 ---
 

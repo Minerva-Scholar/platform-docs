@@ -7,12 +7,14 @@ Este guia define as regras, convenções e o fluxo de trabalho para escrever e m
 ## 1. Princípios de Escrita
 
 !!! info "Decisão"
-    Toda página da documentação segue quatro regras permanentes:
+    Toda página da documentação segue seis regras permanentes:
 
     1. **Simples, direta e concisa, mas completa:** vá direto ao ponto sem omitir pré-requisitos, comandos ou restrições importantes. Evite adjetivos vagos e texto de preenchimento.
     2. **Orientada a fatos:** documente o que existe, o que foi medido e o que foi decidido. Nunca invente métricas, benchmarks ou resultados — toda medição precisa ser reprodutível.
     3. **Status explicitamente declarado:** deixe claro o que é **Decisão** (estável), o que é **Estado atual (mutável)** (sujeito a mudança) e o que está **Em aberto** (aguardando definição).
     4. **Idioma:** texto em **português do Brasil (`pt-BR`, com acentuação correta)**; nomes de arquivos, diretórios, identificadores, comandos e trechos de código sempre em **inglês**.
+    5. **Apenas artefatos versionados:** nunca referencie arquivos locais que não estejam versionados no repositório.
+    6. **Estrutura com baixo custo de manutenção:** ao documentar organização, indique apenas onde fica cada coisa (responsabilidade por diretório ou ponto de entrada), sem listar posição e conteúdo de cada arquivo individual.
 
 ---
 
