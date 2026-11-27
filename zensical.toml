@@ -9,6 +9,9 @@ repo_name = "Minerva-Scholar/platform-docs"
 
 nav = [
   { "Início" = "index.md" },
+  { "Contribuindo" = [
+    { "Documentação" = "contributing/documentation.md" },
+  ] },
 ]
 
 [project.theme]
